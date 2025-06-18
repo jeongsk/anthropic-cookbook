@@ -1,19 +1,19 @@
-# Claude Skills
+# 클로드 기술
 
-Welcome to the Skills section of the Anthropic Cookbook! This directory contains a collection of guides that showcase specific skills and capabilities where Claude excels. Each guide provides an in-depth exploration of a particular skill, discussing potential use cases, prompt engineering techniques to optimize results, and approaches for evaluating Claude's performance.
+앤스로픽 쿡북의 기술 섹션에 오신 것을 환영합니다! 이 디렉토리에는 클로드가 뛰어난 특정 기술과 역량을 보여주는 가이드 모음이 포함되어 있습니다. 각 가이드는 특정 기술에 대한 심층적인 탐구를 제공하며, 잠재적인 사용 사례, 결과 최적화를 위한 프롬프트 엔지니어링 기술, 클로드의 성능 평가 접근 방식을 논의합니다.
 
-## Guides
+## 가이드
 
-- **[Classification with Claude](./classification/guide.ipynb)**: Discover how Claude can revolutionize classification tasks, especially in scenarios with complex business rules and limited training data. This guide walks you through data preparation, prompt engineering with retrieval-augmented generation (RAG), testing, and evaluation.
+- **[클로드를 사용한 분류](./classification/guide.ipynb)**: 특히 복잡한 비즈니스 규칙과 제한된 학습 데이터가 있는 시나리오에서 클로드가 분류 작업을 어떻게 혁신할 수 있는지 알아보십시오. 이 가이드는 데이터 준비, 검색 증강 생성(RAG)을 사용한 프롬프트 엔지니어링, 테스트 및 평가 과정을 안내합니다.
 
-- **[Retrieval Augmented Generation with Claude](./retrieval_augmented_generation/guide.ipynb)**: Learn how to enhance Claude's capabilities with domain-specific knowledge using RAG. This guide demonstrates how to build a RAG system from scratch, optimize its performance, and create an evaluation suite. You'll learn how techniques like summary indexing and re-ranking can significantly improve precision, recall, and overall accuracy in question-answering tasks.
+- **[클로드를 사용한 검색 증강 생성](./retrieval_augmented_generation/guide.ipynb)**: RAG를 사용하여 도메인별 지식으로 클로드의 기능을 향상시키는 방법을 알아보십시오. 이 가이드는 처음부터 RAG 시스템을 구축하고, 성능을 최적화하며, 평가 제품군을 만드는 방법을 보여줍니다. 요약 인덱싱 및 재순위 지정과 같은 기술이 질문 답변 작업에서 정밀도, 재현율 및 전반적인 정확도를 크게 향상시킬 수 있는 방법을 배우게 됩니다.
 
-- **[Retrieval Augmented Generation with Contextual Embeddings](./contextual-embeddings/guide.ipynb)**: Learn how to use a new technique to improve the performance of your RAG system. In traditional RAG, documents are typically split into smaller chunks for efficient retrieval. While this approach works well for many applications, it can lead to problems when individual chunks lack sufficient context. Contextual Embeddings solve this problem by adding relevant context to each chunk before embedding. You'll learn how to use contextual embeddings with semantic search, BM25 search, and reranking to improve performance.
+- **[문맥적 임베딩을 사용한 검색 증강 생성](./contextual-embeddings/guide.ipynb)**: RAG 시스템의 성능을 향상시키는 새로운 기술을 사용하는 방법을 알아보십시오. 기존 RAG에서는 효율적인 검색을 위해 문서를 일반적으로 더 작은 청크로 분할합니다. 이 접근 방식은 많은 애플리케이션에서 잘 작동하지만 개별 청크에 충분한 컨텍스트가 부족할 때 문제가 발생할 수 있습니다. 문맥적 임베딩은 임베딩 전에 각 청크에 관련 컨텍스트를 추가하여 이 문제를 해결합니다. 의미론적 검색, BM25 검색 및 재순위 지정을 통해 문맥적 임베딩을 사용하여 성능을 향상시키는 방법을 배우게 됩니다.
 
-- **[Summarization with Claude](./summarization/guide.ipynb)**: Explore Claude's ability to summarize and synthesize information from multiple sources. This guide covers a variety of summarization techniques, including multi-shot, domain-based, and chunking methods, as well as strategies for handling long-form content and multiple documents. We also explore evaluating summaries, which can be a balance of art, subjectivity, and the right approach!
+- **[클로드를 사용한 요약](./summarization/guide.ipynb)**: 여러 출처의 정보를 요약하고 종합하는 클로드의 능력을 살펴보십시오. 이 가이드는 다중 샷, 도메인 기반, 청킹 방법을 포함한 다양한 요약 기술과 긴 형식의 콘텐츠 및 여러 문서를 처리하기 위한 전략을 다룹니다. 또한 예술, 주관성, 올바른 접근 방식의 균형이 될 수 있는 요약 평가도 살펴봅니다!
 
-- **[Text-to-SQL with Claude](./text_to_sql/guide.ipynb)**: This guide covers how to generate complex SQL queries from natural language using prompting techniques, self-improvement, and RAG. We'll also explore how to evaluate and improve the accuracy of generated SQL queries, with evals that test for syntax, data correctness, row count, and more.
+- **[클로드를 사용한 텍스트-SQL 변환](./text_to_sql/guide.ipynb)**: 이 가이드는 프롬프트 기술, 자체 개선 및 RAG를 사용하여 자연어에서 복잡한 SQL 쿼리를 생성하는 방법을 다룹니다. 또한 구문, 데이터 정확성, 행 수 등을 테스트하는 평가를 통해 생성된 SQL 쿼리의 정확성을 평가하고 개선하는 방법도 살펴봅니다.
 
-## Getting Started
+## 시작하기
 
-To get started with the Skills guides, simply navigate to the desired guide's directory and follow the instructions provided in the `guide.ipynb` file. Each guide is self-contained and includes all the necessary code, data, and evaluation scripts to reproduce the examples and experiments.
+기술 가이드를 시작하려면 원하는 가이드의 디렉토리로 이동하여 `guide.ipynb` 파일에 제공된 지침을 따르기만 하면 됩니다. 각 가이드는 자체 포함되어 있으며 예제와 실험을 재현하는 데 필요한 모든 코드, 데이터 및 평가 스크립트를 포함합니다.
